@@ -1,0 +1,23 @@
+.options-container {
+    display: flex;
+    justify-content: space-between;
+
+    @media(max-width: 750px) {
+        & {
+            display: block;
+        }
+    }
+}
+
+.options-list {
+    width: 30%;
+    margin: 1rem;
+
+    @media(max-width: 750px) {
+        & {
+            border-top: 2px solid #888;
+            width: 100%;
+            margin: 0;
+        }
+    }
+}
